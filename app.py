@@ -8,7 +8,7 @@ def get_db_connection():
         host="localhost",
         database="food_spot_db", # Make sure this matches our DB name in pgAdmin
         user="postgres",
-        password="yourpassword" 
+        password="cheesy123" 
     )
 
 @app.route('/', methods=['GET', 'POST'])
