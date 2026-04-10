@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_db_connection():
     return psycopg2.connect(
         host="localhost",
-        database="food_reviews", # Make sure this matches your DB name in pgAdmin
+        database="food_spot_db", # Make sure this matches our DB name in pgAdmin
         user="postgres",
         password="yourpassword" 
     )
